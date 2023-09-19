@@ -16,6 +16,9 @@ class Ave(Animal):
 
     def setColorPlumas(self,color):
         self.__colorPlumas=color
+
+
+    ##---------------------------------------------------------    
     @classmethod
     def cantidadAves(cls):
         return len(cls.__listado)
